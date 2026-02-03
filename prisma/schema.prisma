@@ -80,6 +80,7 @@ model Step {
 
     input     String?
     metadata  Json
+    modes     Json?
     name      String?
     output    String?
     type      StepType
